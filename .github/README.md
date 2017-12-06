@@ -110,10 +110,10 @@ sudo sh -c "openssl passwd -apr1 >> ${NGINX_FILES_PATH}/your_domain.com"
 
 ## Testing your proxy with scripts preconfigured 
 
-1. Run the script `test.sh` informing your domain already configured in your DNS to point out to your server as follow:
+1. Run the script `start_test.sh` informing your domain already configured in your DNS to point out to your server as follow:
 
 ```bash
-# ./test.sh your.domain.com
+# ./start_test.sh your.domain.com
 ```
 
 or simply run:
